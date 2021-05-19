@@ -1,0 +1,153 @@
+.sidebar {
+    background-color: black;
+    height: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+.admin-container {
+    width: 100%;
+}
+
+ul.side-menu {
+    margin-left: 15%;
+    margin-top: 52px;
+}
+
+ul.side-menu li i {
+    background-color: #fff;
+    color: black;
+    width: 20px;
+    height: 20px;
+    padding: 5px;
+    border-radius: 50%;
+}
+
+ul.side-menu li a {
+    color: white;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.icon {
+    width: 33px;
+    height: 33px;
+    padding: 5px;
+    background-color: white;
+    border-radius: 50%;
+    margin: auto 10px;
+    color: black;
+    text-align: center;
+}
+
+ul.side-menu li {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    align-items: center;
+    padding: 10px 30px;
+    margin: 10px;
+    color: white;
+    border-radius: 30px 0px 0px 30px;
+}
+
+ul.side-menu li.active {
+    padding: 10px 30px;
+    background-color: white;
+    color: black;
+    width: 101%;
+    cursor: pointer;
+    border-right: 1px solid lightgrey;
+    border-radius: 30px 0px 0px 30px;
+}
+
+ul.side-menu li.active a {
+    color: black;
+}
+
+ul.side-menu li.active .icon {
+    color: white;
+    background-color: #000;
+}
+
+/* Add blog */
+
+.main-content {
+    height: 100vh;
+    padding: 30px 0px;
+    margin-left: 25%;
+    background-color: #f3f3f3;
+}
+
+.main-content h1 {
+    text-transform: uppercase;
+}
+
+.main-content input, .main-content textarea {
+    font-weight: 500;
+    color: black;
+}
+
+.from-wrapper {
+    background-color: #fbfbfb;
+    padding: 30px;
+    width: 95%;
+    margin: 0px auto;
+    border: 1px solid lightgrey;
+}
+
+.upload {
+    border: 1px solid lightgrey;
+    padding: 20px 50px;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+}
+
+.upload svg {
+    font-size: 50px;
+}
+
+.upload p {
+    font-weight: 500;
+}
+
+#upload {
+    display: none;
+}
+
+.submit-btn {
+    padding: 10px 50px;
+    background-color: black;
+    color: white !important;
+    font-weight: 500;
+    border: none;
+}
+
+/* All blog */
+
+.main-content {
+    height: fit-content;
+    padding: 30px 0px;
+    margin-left: 25%;
+    background-color: #f3f3f3;
+}
+
+.main-content h1 {
+    text-transform: uppercase;
+}
+
+.blog-wrapper {
+    background-color: #fbfbfb;
+    width: 95%;
+    margin: 0px auto;
+    padding: 30px;
+    border: 1px solid lightgrey;
+}
