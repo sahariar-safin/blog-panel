@@ -151,3 +151,146 @@ ul.side-menu li.active .icon {
     padding: 30px;
     border: 1px solid lightgrey;
 }
+
+/* Drivers */
+
+.main-content {
+    height: 100vh;
+    padding: 30px 0px;
+    margin-left: 25%;
+    background-color: #f3f3f3;
+}
+
+.main-content h1 {
+    text-transform: uppercase;
+}
+
+.driver-wrapper {
+    background-color: #fbfbfb;
+    width: 95%;
+    margin: 0px auto;
+    padding: 30px;
+    border: 1px solid lightgrey;
+}
+
+/* Brands */
+
+.main-content {
+    height: 100vh;
+    padding: 30px 0px;
+    margin-left: 25%;
+    background-color: #f3f3f3;
+}
+
+.main-content h1 {
+    text-transform: uppercase;
+}
+
+.brand-wrapper {
+    background-color: #fbfbfb;
+    width: 95%;
+    margin: 0px auto;
+    padding: 30px;
+    border: 1px solid lightgrey;
+}
+
+/* Adavaneue Last call action section */
+
+.call-to-action {
+    width: 70%;
+    height: 500px;
+    margin: 0px auto;
+    border-radius: 15px;
+    background-image: url('../img/Pitch-Deck-Source.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.call-to-action .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #3163AE;
+    border-radius: 15px;
+    opacity: .7;
+}
+
+.call-to-action .under-overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    color: white;
+    border-radius: 15px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.call-to-action button.btn.btn-play-store {
+    background: transparent;
+    border: 2px solid white;
+    padding: 10px 30px;
+    font-size: 27px;
+    color: white;
+    font-weight: 700;
+    border-radius: 7px;
+}
+
+/* Join with us section */
+
+.join-with-us {
+    width: 100%;
+    height: 500px;
+    margin: 0px auto;
+    background-image: url('../img/2c3345_9ee74ded8b314e1fa360039c9e0fdda9_mv2_d_4000_2473_s_4_2.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.join-with-us .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #010000;
+    opacity: .7;
+}
+
+.join-with-us .under-overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.join-with-us button.btn.btn-play-store {
+    background: transparent;
+    border: 1px solid white;
+    padding: 15px 50px;
+    font-size: 27px;
+    color: white;
+    font-weight: bold;
+    border-radius: 7px;
+}
